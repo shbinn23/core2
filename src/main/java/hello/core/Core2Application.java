@@ -1,4 +1,4 @@
-package hello.core2;
+package hello.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

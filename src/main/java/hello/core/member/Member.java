@@ -1,4 +1,4 @@
-package hello.core2.member;
+package hello.core.member;
 
 public class Member {
 
@@ -6,11 +6,13 @@ public class Member {
     private String name;
     private Grade grade;
 
-    public Member(Long id, String name, Grade grade) {
+    public Member(Long id, String name, Grade grade) {  // 생성자
         this.id = id;
         this.name = name;
         this.grade = grade;
     }
+
+    // getter & setter
 
     public Long getId() {
         return id;
